@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDBDBD"
+    tools:context=".SistemasActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BDBDBD"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/txtFieldSistemas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="180dp"
+            android:ems="10"
+            android:hint="Text here..."
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="82dp"
+            tools:layout_editor_absoluteY="76dp" />
+
+        <TextView
+            android:id="@+id/lblSistemas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="16dp"
+            android:text="Random text"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+        <Button
+            android:id="@+id/btnAlert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="16dp"
+            android:background="#A13838"
+            android:text="Button 1"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="82dp"
+            tools:layout_editor_absoluteY="214dp" />
+
+        <Button
+            android:id="@+id/btnSetText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="50dp"
+            android:background="#385BA1"
+            android:text=" Button 2"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="82dp"
+            tools:layout_editor_absoluteY="299dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

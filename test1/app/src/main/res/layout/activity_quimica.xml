@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE6BA"
+    tools:context=".QuimicaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/txtFieldMsgAlert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Text here..."
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="180dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="73dp" />
+
+        <EditText
+            android:id="@+id/txtFieldUpdateLive"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:hint="Text here..."
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="161dp" />
+
+        <TextView
+            android:id="@+id/lblQuimica"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:text="No text"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+        <Button
+            android:id="@+id/btnSetAlert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="16dp"
+            android:background="#38A13C"
+            android:textColor="#FFFFFF"
+            android:text="Button"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="324dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
